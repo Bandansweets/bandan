@@ -7,7 +7,7 @@ import Link from "next/link";
 // Animation variants
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
-  animate: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+  animate: { opacity: 1, y: 0 },
 };
 
 const fadeInLeft = {
@@ -32,7 +32,7 @@ export default function About() {
         {/* Background Pattern */}
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gold/5 via-transparent to-transparent" />
         <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5" />
-        
+
         {/* Animated Gold Orbs */}
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
@@ -97,7 +97,7 @@ export default function About() {
               <div className="text-6xl mb-4">✨</div>
               <h3 className="text-2xl font-heading text-gold mb-3">Since 2024</h3>
               <p className="text-gray-400 leading-relaxed">
-                A new standard in premium sweet craftsmanship, blending centuries-old 
+                A new standard in premium sweet craftsmanship, blending centuries-old
                 recipes with contemporary elegance.
               </p>
             </div>
@@ -115,12 +115,12 @@ export default function About() {
             </h2>
             <div className="w-16 h-0.5 bg-gold/50 mb-6" />
             <p className="text-gray-300 leading-relaxed mb-4 text-lg">
-              Rooted in tradition and refined for modern elegance, Bandan Sweets 
+              Rooted in tradition and refined for modern elegance, Bandan Sweets
               represents a legacy of taste and presentation that spans generations.
             </p>
             <p className="text-gray-400 leading-relaxed">
-              Every piece is handcrafted with precision, ensuring quality, purity, 
-              and an unforgettable experience that transforms ordinary moments into 
+              Every piece is handcrafted with precision, ensuring quality, purity,
+              and an unforgettable experience that transforms ordinary moments into
               extraordinary memories.
             </p>
           </motion.div>
@@ -130,7 +130,7 @@ export default function About() {
       {/* Philosophy Section */}
       <section className="relative px-6 py-20 md:py-28 bg-black/30 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-gold/5 via-transparent to-transparent" />
-        
+
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <motion.div
             initial="initial"
@@ -152,14 +152,14 @@ export default function About() {
               variants={fadeInUp}
               className="text-gray-300 leading-relaxed text-lg md:text-xl font-light mb-8"
             >
-              We believe that sweets are more than confections—they are expressions 
+              We believe that sweets are more than confections—they are expressions
               of love, celebration, and thoughtful gifting.
             </motion.p>
             <motion.p
               variants={fadeInUp}
               className="text-gray-400 leading-relaxed"
             >
-              Our commitment to excellence drives every decision, from sourcing the 
+              Our commitment to excellence drives every decision, from sourcing the
               finest ingredients to designing packaging that elevates the act of giving.
             </motion.p>
           </motion.div>
@@ -229,7 +229,7 @@ export default function About() {
               </h2>
               <div className="w-16 h-0.5 bg-gold/50" />
               <p className="text-gray-300 text-lg leading-relaxed">
-                Each sweet is meticulously handcrafted by master artisans who bring 
+                Each sweet is meticulously handcrafted by master artisans who bring
                 decades of experience and unwavering dedication to their craft.
               </p>
               <ul className="space-y-3 text-gray-400">
@@ -297,7 +297,7 @@ export default function About() {
         <div className="relative">
           {/* Timeline Line */}
           <div className="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-gold/20 hidden md:block" />
-          
+
           <div className="space-y-12">
             {timeline.map((item, index) => (
               <motion.div
@@ -306,9 +306,8 @@ export default function About() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className={`flex flex-col md:flex-row items-center gap-8 ${
-                  index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                }`}
+                className={`flex flex-col md:flex-row items-center gap-8 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+                  }`}
               >
                 <div className="flex-1">
                   <div className="bg-black/40 border border-gold/20 rounded-2xl p-6 backdrop-blur-sm hover:border-gold/60 transition-all">
@@ -339,7 +338,7 @@ export default function About() {
             Experience the Difference
           </h2>
           <p className="text-gray-300 mb-8 text-lg">
-            Discover our exquisite collection of handcrafted sweets, 
+            Discover our exquisite collection of handcrafted sweets,
             perfect for every celebration and gifting occasion.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

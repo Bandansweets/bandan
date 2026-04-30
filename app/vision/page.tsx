@@ -6,7 +6,7 @@ import { useRef } from "react";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
-  animate: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+  animate: { opacity: 1, y: 0 },
 };
 
 const fadeInLeft = {
@@ -34,11 +34,11 @@ export default function VisionPage() {
 
   return (
     <main className="bg-white text-black overflow-x-hidden">
-      
+
       {/* Hero Section with Parallax */}
       <section ref={targetRef} className="relative h-[70vh] min-h-[550px] flex items-center justify-center bg-white overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-black/5 via-transparent to-black/5" />
-        
+
         {/* Animated Ornamental Background */}
         <motion.div
           animate={{ rotate: 360, scale: [1, 1.2, 1] }}
@@ -50,7 +50,7 @@ export default function VisionPage() {
           transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
           className="absolute bottom-20 left-20 w-96 h-96 border border-black/5 rounded-full"
         />
-        
+
         {/* Floating Ornaments */}
         <motion.div
           animate={{ y: [0, -20, 0] }}
@@ -201,17 +201,17 @@ export default function VisionPage() {
                 Beyond Business
               </div>
               <h2 className="text-3xl md:text-5xl font-heading text-black mb-4 leading-tight">
-                Relationships > <br />
+                Relationships {'>'} <br />
                 <span className="border-b-2 border-black">Transactions</span>
               </h2>
               <div className="w-16 h-0.5 bg-black/30 mb-6" />
               <p className="text-black/70 leading-relaxed mb-4">
-                We don't just take orders — we build lasting relationships. Every client, whether a first-time 
+                We don't just take orders — we build lasting relationships. Every client, whether a first-time
                 retail customer or a decade-long corporate partner, is treated with the same warmth and attention.
               </p>
               <p className="text-black/70 leading-relaxed mb-6">
-                Our vision is to be more than a vendor. We want to be your trusted partner in celebration — 
-                understanding your preferences, anticipating your needs, and delivering sweetness that speaks 
+                Our vision is to be more than a vendor. We want to be your trusted partner in celebration —
+                understanding your preferences, anticipating your needs, and delivering sweetness that speaks
                 directly to the heart.
               </p>
               <div className="flex items-center gap-4 p-4 bg-black/5 rounded-xl">
@@ -267,13 +267,13 @@ export default function VisionPage() {
               </h2>
               <div className="w-16 h-0.5 bg-black/30 mb-6" />
               <p className="text-black/70 leading-relaxed mb-4">
-                In a world of shortcuts, we take the long road. Our unwavering commitment to quality isn't just 
-                about ingredients — it's about integrity. It's the reason our customers return, our corporate 
+                In a world of shortcuts, we take the long road. Our unwavering commitment to quality isn't just
+                about ingredients — it's about integrity. It's the reason our customers return, our corporate
                 partners stay, and our reputation grows.
               </p>
               <p className="text-black/70 leading-relaxed mb-6">
-                We believe that compromising on quality for short-term gains is the fastest path to irrelevance. 
-                Our growth is built on trust — and trust is earned through consistency, transparency, and an 
+                We believe that compromising on quality for short-term gains is the fastest path to irrelevance.
+                Our growth is built on trust — and trust is earned through consistency, transparency, and an
                 uncompromising dedication to excellence.
               </p>
               <div className="grid grid-cols-2 gap-3">
@@ -354,7 +354,7 @@ export default function VisionPage() {
               <div className="text-5xl mb-4">🏠</div>
               <h3 className="text-2xl font-heading text-black mb-3">Retail Customers</h3>
               <p className="text-black/70 text-sm leading-relaxed mb-4">
-                Every retail customer is the heart of our business. Whether it's a single box for a birthday 
+                Every retail customer is the heart of our business. Whether it's a single box for a birthday
                 or a dozen for a family gathering, we pour the same love and attention into every order.
               </p>
               <ul className="space-y-2">
@@ -374,7 +374,7 @@ export default function VisionPage() {
               <div className="text-5xl mb-4">🏢</div>
               <h3 className="text-2xl font-heading text-black mb-3">Corporate Clients</h3>
               <p className="text-black/70 text-sm leading-relaxed mb-4">
-                From 50 to 50,000 units — our enterprise infrastructure ensures consistency, customization, 
+                From 50 to 50,000 units — our enterprise infrastructure ensures consistency, customization,
                 and timely delivery at scale, without ever compromising on quality.
               </p>
               <ul className="space-y-2">
@@ -454,11 +454,11 @@ export default function VisionPage() {
             </h2>
             <div className="w-16 h-0.5 bg-black/30 mx-auto mb-6" />
             <p className="text-black/70 text-lg leading-relaxed mb-6">
-              To be the name that comes to mind when India thinks of premium sweets — 
+              To be the name that comes to mind when India thinks of premium sweets —
               a brand synonymous with trust, quality, and the joy of giving.
             </p>
             <p className="text-black/50 text-sm italic">
-              "We dream of a India where every celebration, every milestone, and every relationship 
+              "We dream of a India where every celebration, every milestone, and every relationship
               is celebrated with Bandan — because every moment deserves sweetness."
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">

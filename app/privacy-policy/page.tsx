@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
-  animate: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+  animate: { opacity: 1, y: 0 },
 };
 
 const staggerContainer = {
@@ -15,11 +15,11 @@ const staggerContainer = {
 export default function PrivacyPolicyPage() {
   return (
     <main className="bg-white text-black overflow-x-hidden">
-      
+
       {/* Hero Section */}
       <section className="relative h-[40vh] min-h-[300px] flex items-center justify-center bg-white overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-black/5 via-transparent to-black/5" />
-        
+
         <motion.div
           initial="initial"
           animate="animate"
@@ -66,7 +66,7 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-2xl font-heading text-black">Introduction</h2>
               <div className="w-12 h-0.5 bg-black/30" />
               <p className="text-black/70 text-sm leading-relaxed">
-                At Bandan Sweets ("we", "our", "us"), we respect your privacy and are committed to protecting your personal data. 
+                At Bandan Sweets ("we", "our", "us"), we respect your privacy and are committed to protecting your personal data.
                 This policy explains how we collect, use, and safeguard your information when you visit our website or make a purchase.
               </p>
             </motion.div>
@@ -117,8 +117,8 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-2xl font-heading text-black">Data Security</h2>
               <div className="w-12 h-0.5 bg-black/30" />
               <p className="text-black/70 text-sm leading-relaxed">
-                We implement industry-standard security measures including SSL encryption for data transmission, 
-                secure servers, restricted access to personal data, and regular security audits. However, no method 
+                We implement industry-standard security measures including SSL encryption for data transmission,
+                secure servers, restricted access to personal data, and regular security audits. However, no method
                 of transmission over the internet is 100% secure.
               </p>
             </motion.div>
@@ -128,7 +128,7 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-2xl font-heading text-black">Cookies</h2>
               <div className="w-12 h-0.5 bg-black/30" />
               <p className="text-black/70 text-sm leading-relaxed">
-                We use cookies to enhance your browsing experience, remember your preferences, and analyze website traffic. 
+                We use cookies to enhance your browsing experience, remember your preferences, and analyze website traffic.
                 You can control cookie settings through your browser preferences.
               </p>
             </motion.div>
@@ -154,7 +154,7 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-2xl font-heading text-black">Data Retention</h2>
               <div className="w-12 h-0.5 bg-black/30" />
               <p className="text-black/70 text-sm leading-relaxed">
-                We retain order information for 7 years as required by tax and accounting laws. 
+                We retain order information for 7 years as required by tax and accounting laws.
                 Marketing data is retained until you unsubscribe. Chat/WhatsApp history is retained for 1 year.
               </p>
             </motion.div>
@@ -164,7 +164,7 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-2xl font-heading text-black">Third-Party Links</h2>
               <div className="w-12 h-0.5 bg-black/30" />
               <p className="text-black/70 text-sm leading-relaxed">
-                Our website may contain links to external sites (payment gateways, social media). 
+                Our website may contain links to external sites (payment gateways, social media).
                 We are not responsible for the privacy practices of these third parties.
               </p>
             </motion.div>
@@ -174,7 +174,7 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-2xl font-heading text-black">Children's Privacy</h2>
               <div className="w-12 h-0.5 bg-black/30" />
               <p className="text-black/70 text-sm leading-relaxed">
-                Our services are not directed to individuals under 18. We do not knowingly collect data from children. 
+                Our services are not directed to individuals under 18. We do not knowingly collect data from children.
                 If you believe a child has provided us with personal information, please contact us.
               </p>
             </motion.div>
@@ -184,7 +184,7 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-2xl font-heading text-black">Updates to This Policy</h2>
               <div className="w-12 h-0.5 bg-black/30" />
               <p className="text-black/70 text-sm leading-relaxed">
-                We may update this privacy policy periodically. Changes will be posted on this page with an updated 
+                We may update this privacy policy periodically. Changes will be posted on this page with an updated
                 "Last updated" date. Continued use of our services constitutes acceptance of the revised policy.
               </p>
             </motion.div>

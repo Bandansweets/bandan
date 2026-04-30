@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 // Animation variants
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
-  animate: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+  animate: { opacity: 1, y: 0 },
 };
 
 const fadeInLeft = {
@@ -40,12 +40,12 @@ export default function Home() {
 
   return (
     <main className="bg-white text-black overflow-x-hidden">
-      
+
       {/* --- HERO SECTION --- */}
       <section className="relative h-screen flex flex-col justify-center items-center text-center px-6 overflow-hidden bg-white">
         {/* Subtle Gradient Background */}
         <div className="absolute inset-0 bg-gradient-to-br from-black/5 via-transparent to-black/5" />
-        
+
         {/* Floating Light Orbs */}
         <motion.div
           animate={{
@@ -85,7 +85,7 @@ export default function Home() {
           >
             Since 2024
           </motion.div>
-          
+
           <motion.h1
             variants={fadeInUp}
             className="text-6xl md:text-8xl font-heading text-black mb-6 tracking-tight"
@@ -298,7 +298,7 @@ export default function Home() {
       {/* --- BRAND STORY --- */}
       <section className="relative px-6 py-24 md:py-32 overflow-hidden bg-black/5">
         <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5" />
-        
+
         <div className="max-w-5xl mx-auto text-center relative z-10">
           <motion.div
             initial="initial"
