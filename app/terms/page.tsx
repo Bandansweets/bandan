@@ -275,7 +275,7 @@ export default function TermsPage() {
                 <p className="text-black/70 text-sm">For questions about these Terms & Conditions, please contact us:</p>
                 <div className="p-4 bg-black/5 rounded-xl space-y-1 text-sm">
                   <p className="text-black/70">📧 <span className="font-semibold">Email:</span> legal@bandansweets.com</p>
-                  <p className="text-black/70">📞 <span className="font-semibold">Phone:</span> +91 XXXXXXXXXX</p>
+                  <p className="text-black/70">📞 <span className="font-semibold">Phone:</span> +91 9818150911</p>
                   <p className="text-black/70">📍 <span className="font-semibold">Address:</span> Bandan Sweets, Mumbai, India</p>
                 </div>
               </div>

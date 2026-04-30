@@ -203,7 +203,7 @@ export default function Products() {
 
                   {/* Order Button */}
                   <a
-                    href={`https://wa.me/91XXXXXXXXXX?text=I'm%20interested%20in%20${encodeURIComponent(product.name)}%20(${product.weight})%20-%20${product.price}`}
+                    href={`https://wa.me/919818150911?text=I'm%20interested%20in%20${encodeURIComponent(product.name)}%20(${product.weight})%20-%20${product.price}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full flex items-center justify-center gap-2 bg-black text-white py-2.5 rounded-full text-sm font-medium hover:bg-black/90 transition-all group-hover:shadow-md"
@@ -256,7 +256,7 @@ export default function Products() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="https://wa.me/91XXXXXXXXXX"
+                href="https://wa.me/919818150911"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-black/90 transition-all"

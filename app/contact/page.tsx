@@ -373,7 +373,7 @@ export default function ContactPage() {
             For urgent inquiries, reach out to us on WhatsApp for quick responses.
           </p>
           <a
-            href="https://wa.me/91XXXXXXXXXX"
+            href="https://wa.me/919818150911"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-black text-white px-8 py-3 rounded-full font-semibold hover:bg-black/90 transition-all"
@@ -392,7 +392,7 @@ const contactMethods = [
     icon: "💬",
     title: "WhatsApp",
     description: "Quickest response time. Chat with our support team.",
-    link: "https://wa.me/91XXXXXXXXXX",
+    link: "https://wa.me/919818150911",
     action: "Start Chat",
   },
   {

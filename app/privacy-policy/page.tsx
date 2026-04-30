@@ -198,7 +198,7 @@ export default function PrivacyPolicyPage() {
               </p>
               <div className="mt-3 p-4 bg-black/5 rounded-xl text-sm space-y-1">
                 <p>📧 <span className="font-semibold">Email:</span> privacy@bandansweets.com</p>
-                <p>📞 <span className="font-semibold">Phone:</span> +91 XXXXXXXXXX</p>
+                <p>📞 <span className="font-semibold">Phone:</span> +91 9818150911</p>
                 <p>📍 <span className="font-semibold">Address:</span> Bandan Sweets, [City], India</p>
               </div>
             </motion.div>

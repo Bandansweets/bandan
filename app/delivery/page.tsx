@@ -375,9 +375,9 @@ export default function DeliveryPage() {
                 Our customer support team is available to assist with delivery-related queries:
               </p>
               <ul className="space-y-2 text-sm text-black/60">
-                <li>✓ WhatsApp: +91 XXXXXXXXXX</li>
+                <li>✓ WhatsApp: +91 9818150911</li>
                 <li>✓ Email: delivery@bandansweets.com</li>
-                <li>✓ Phone: +91 XXXXXXXXXX</li>
+                <li>✓ Phone: +91 9818150911</li>
                 <li>✓ Support Hours: 10 AM - 7 PM (Mon-Sat)</li>
               </ul>
             </motion.div>

@@ -223,7 +223,7 @@ export default function Navbar() {
               <div className="w-px h-6 bg-amber-500/20" />
               
               <a
-                href="https://wa.me/91XXXXXXXXXX"
+                href="https://wa.me/919818150911"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative inline-block px-6 py-2 text-xs uppercase tracking-[0.2em] font-light border border-amber-500/40 text-amber-500 hover:bg-amber-500 hover:text-black transition-all duration-500 overflow-hidden"
@@ -348,7 +348,7 @@ export default function Navbar() {
                 className="pt-8"
               >
                 <a
-                  href="https://wa.me/91XXXXXXXXXX"
+                  href="https://wa.me/919818150911"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-10 py-3 border border-amber-500/40 text-amber-500 hover:bg-amber-500 hover:text-black transition-all duration-500 uppercase tracking-[0.2em] text-sm"

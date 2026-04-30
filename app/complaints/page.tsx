@@ -401,7 +401,7 @@ export default function CustomerCarePage() {
             </h2>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/91XXXXXXXXXX"
+                href="https://wa.me/919818150911"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 border border-black/30 px-6 py-3 rounded-full hover:bg-black hover:text-white transition-all"

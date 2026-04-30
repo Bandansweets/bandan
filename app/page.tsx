@@ -363,7 +363,7 @@ export default function Home() {
                       )}
                     </div>
                     <motion.a
-                      href={`https://wa.me/91XXXXXXXXXX?text=I'm%20interested%20in%20your%20${encodeURIComponent(
+                      href={`https://wa.me/919818150911?text=I'm%20interested%20in%20your%20${encodeURIComponent(
                         product.name
                       )}`}
                       target="_blank"

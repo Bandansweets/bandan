@@ -265,7 +265,7 @@ export default function CookiesPolicyPage() {
               </p>
               <div className="space-y-2 text-black/60 text-sm">
                 <p>📧 Email: privacy@bandansweets.com</p>
-                <p>📞 Phone: +91 XXXXXXXXXX</p>
+                <p>📞 Phone: +91 9818150911</p>
                 <p>📍 Address: Mumbai, Maharashtra, India</p>
               </div>
             </div>

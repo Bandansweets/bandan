@@ -113,7 +113,7 @@ export default function OrderingPage() {
                 <h3 className="text-xl font-heading text-black mb-4">Quick Retail Order</h3>
                 <div className="space-y-3">
                   <a
-                    href="https://wa.me/91XXXXXXXXXX"
+                    href="https://wa.me/919818150911"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-between p-3 bg-white border border-black/10 rounded-lg hover:border-black/30 transition-all"
@@ -171,7 +171,7 @@ export default function OrderingPage() {
                 <h3 className="text-xl font-heading text-black mb-4">Bulk Order Quick Links</h3>
                 <div className="space-y-3">
                   <a
-                    href="https://wa.me/91XXXXXXXXXX"
+                    href="https://wa.me/919818150911"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-between p-3 bg-white border border-black/10 rounded-lg hover:border-black/30 transition-all"
@@ -539,7 +539,7 @@ export default function OrderingPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/91XXXXXXXXXX"
+              href="https://wa.me/919818150911"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-black text-white px-8 py-3 rounded-full font-semibold hover:bg-black/90 transition-all"

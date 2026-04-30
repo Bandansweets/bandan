@@ -427,7 +427,7 @@ export default function GiftingPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/91XXXXXXXXXX"
+                href="https://wa.me/919818150911"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-black text-white px-8 py-3 rounded-full font-semibold hover:bg-black/90 transition-all"
