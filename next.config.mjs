@@ -5,4 +5,5 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;   // if .js
+// export default nextConfig;   // if .mjs
