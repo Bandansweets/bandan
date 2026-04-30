@@ -41,11 +41,11 @@ export default function ContactPage() {
 
   return (
     <main className="bg-white text-black overflow-x-hidden">
-      
+
       {/* Hero Section */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center bg-white overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-black/5 via-transparent to-black/5" />
-        
+
         <motion.div
           initial="initial"
           animate="animate"
@@ -114,7 +114,7 @@ export default function ContactPage() {
       <section className="px-6 py-20 bg-black/5">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
-            
+
             {/* Form Section */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -148,7 +148,7 @@ export default function ContactPage() {
                     placeholder="Your Name *"
                   />
                 </div>
-                
+
                 <div className="grid md:grid-cols-2 gap-4">
                   <input
                     type="email"
@@ -227,23 +227,23 @@ export default function ContactPage() {
                       <div className="font-semibold text-black">Visit Us</div>
                       <p className="text-black/60 text-sm">
                         Bandan Sweets<br />
-                        Mumbai, Maharashtra<br />
-                        India 400001
+                        Sadar Bazar, Tanda<br />
+                        Uttar Pradesh 244925
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-3">
                     <span className="text-2xl">📞</span>
                     <div>
                       <div className="font-semibold text-black">Call Us</div>
                       <p className="text-black/60 text-sm">
-                        +91 XXXXXXXXXX<br />
-                        Mon-Sat, 10 AM - 7 PM
+                        +91 9818150911<br />
+                        Mon-Sun, 10 AM - 10 PM
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-3">
                     <span className="text-2xl">✉️</span>
                     <div>
@@ -254,14 +254,14 @@ export default function ContactPage() {
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-3">
                     <span className="text-2xl">💬</span>
                     <div>
                       <div className="font-semibold text-black">WhatsApp</div>
                       <p className="text-black/60 text-sm">
-                        +91 XXXXXXXXXX<br />
-                        24/7 Support
+                        +91 9818150911<br />
+                        10 AM to 10 PM Support
                       </p>
                     </div>
                   </div>
@@ -275,16 +275,8 @@ export default function ContactPage() {
                 </h3>
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm">
-                    <span className="text-black/60">Monday - Friday</span>
-                    <span className="text-black">9:00 AM - 8:00 PM</span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-black/60">Saturday</span>
-                    <span className="text-black">10:00 AM - 6:00 PM</span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-black/60">Sunday</span>
-                    <span className="text-black">Closed</span>
+                    <span className="text-black/60">Monday - Sunday</span>
+                    <span className="text-black">10:00 AM - 10:00 PM</span>
                   </div>
                 </div>
               </div>

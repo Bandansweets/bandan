@@ -70,9 +70,9 @@ export default function Footer() {
   ];
 
   const quickContact = [
-    { icon: "📞", text: "+91 98765 43210", link: "tel:+919876543210" },
+    { icon: "📞", text: "+91 9818150911", link: "tel:+919818150911" },
     { icon: "✉️", text: "sweet@bandansweets.com", link: "mailto:sweet@bandansweets.com" },
-    { icon: "📍", text: "Mumbai, India", link: null },
+    { icon: "📍", text: "Sadar Bazar, Tanda, Moradabad", link: null },
     { icon: "⏰", text: "10 AM - 8 PM (Mon-Sat)", link: null },
   ];
 
